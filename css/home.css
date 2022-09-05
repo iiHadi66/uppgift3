@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(https://carsomemy.s3.amazonaws.com/Lifestyle/2019%20BMW%203%20Series%20sedan/3%20headlamps.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #ababab;
+    color: white;
+    text-align: center;
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em rgb(35, 44, 212), 0.01em -0.05em 0.15em;
+  }
+ 
+  nav {
+    margin-bottom: 2rem;
+}
+
+  #m1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  li.menu-li {
+    float: left;
+}
+li.menu-li a {
+    display: block;
+    padding: 2vw;
+    color: ivory;
+    text-decoration: none;
+    font-family: "Audiowide", sans-serif;
+}
+li.menu-li a:hover {
+  
+    color: red;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: black;
+
+}
+footer > p {
+    color: white;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}

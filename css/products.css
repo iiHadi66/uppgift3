@@ -65,6 +65,8 @@ section.body {
     margin-bottom: 24vw;
 }
 
+/*container*/
+
 .container{
     margin-left: 5vw;
     column-count: 3;
@@ -77,7 +79,7 @@ section.body {
     clear: both;
 }
 
-.div-textbox img {
+.textbox img {
     object-fit: cover;
     width: 400px;
     height: 270px;
@@ -86,7 +88,7 @@ section.body {
     
   }
 
-.div-textbox {
+.textbox {
     float: left;
     margin: 5vw 0 8vw 0;
     padding: 0 3vw 3vw;
@@ -96,7 +98,7 @@ section.body {
     text-align: center;
     border-radius: 25px 90px 30px;
 }
-.div-textbox > p {
+.textbox > p {
     text-shadow: 1px 1px 1px  rgb(150, 0, 0);
     font-size: larger;
 }
@@ -150,7 +152,7 @@ footer > p {
 
 }
 
-
+/*animation*/
 .overlay {
     position: absolute;
     width: 400px;
